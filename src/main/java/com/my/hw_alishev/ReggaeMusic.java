@@ -5,8 +5,8 @@ import jakarta.annotation.PreDestroy;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
-@Component
-@Scope("prototype")
+//@Component
+//@Scope("prototype")
 public class ReggaeMusic implements Music{
     private String[] songs = {"FirstReggaeSong", "SecondReggaeSong", "ThirdReggaeSong"};
 
